@@ -80,15 +80,17 @@ function App() {
         <img
         src={logo}
         alt='zuri log'
+        className='zuriLogo'
         />
 
-        <div>
+        <div className='task'>
         HNG Internship 9 Frontend Task
         </div>
 
         <img 
         src={i4g}
         alt='ingressive logo'
+        className='i4gLogo'
         />
 
       </div>
