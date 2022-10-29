@@ -1,7 +1,9 @@
 import './App.css';
-import Anchor from './Component/Anchor'
-import slack from './Images/slack.png'
-import github from './Images/Icon.png'
+import Anchor from './Component/Anchor';
+import slack from './Images/slack.png';
+import github from './Images/Icon.png';
+import logo from './Images/Zuri.Internship_Logo.png';
+import i4g from './Images/I4G.png';
 
 function App() {
   return (
@@ -62,7 +64,7 @@ function App() {
         />
       </div>
 
-      <div>
+      <div className='slack_github'>
         <img 
         src={slack}
         alt='slack describtion'
@@ -75,6 +77,19 @@ function App() {
       </div>
 
       <div className='footer'>
+        <img
+        src={logo}
+        alt='zuri log'
+        />
+
+        <div>
+        HNG Internship 9 Frontend Task
+        </div>
+
+        <img 
+        src={i4g}
+        alt='ingressive logo'
+        />
 
       </div>
     </div>

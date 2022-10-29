@@ -32,6 +32,20 @@
   margin: 0 1.5% 0 0;
 }
 
+.slack_github{
+  margin: 1.5% 0 0 0;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  border-top: 1px solid #EAECF0;
+  margin: 3% auto 0 auto;
+  padding: 3em 0;
+}
+
 /* css for Anchor component */
 .anchor button{
   width: 100%;
