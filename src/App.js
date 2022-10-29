@@ -50,7 +50,7 @@ function App() {
         />
 
         <Anchor
-          links='https://books.zuri.team/python-for-beginners?ref_id=<osuji chiaka>'
+          links='https://background.zuri.team'
           title='Background Check for Coders'
           subtext='Click here to know more about your favourite Coders.'
           id='pitch'
