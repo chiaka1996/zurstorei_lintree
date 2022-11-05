@@ -1,12 +1,11 @@
 import Anchor from '../Component/Anchor';
 import slack from '../Images/slack.png';
 import github from '../Images/Icon.png';
-import logo from '../Images/Zuri.Internship_Logo.png';
-import i4g from '../Images/I4G.png';
+import Footer from '../Component/Footer'
 
 const Home = () => {
     return(
-        <div className="App">
+        <div>
       <div>
         <img 
           src='https://res.cloudinary.com/chiaka/image/upload/v1665640492/lcze3y1s6lrdldnfkx5x.jpg'
@@ -82,24 +81,7 @@ const Home = () => {
         />
       </div>
 
-      <div className='footer'>
-        <img
-        src={logo}
-        alt='zuri log'
-        className='zuriLogo'
-        />
-
-        <div className='task'>
-        HNG Internship 9 Frontend Task
-        </div>
-
-        <img 
-        src={i4g}
-        alt='ingressive logo'
-        className='i4gLogo'
-        />
-
-      </div>
+      <Footer/>
     </div>
     )
 }
