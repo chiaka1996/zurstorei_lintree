@@ -1,15 +1,23 @@
+import { Link } from "react-router-dom";
+
 const Anchor = ({links, title, id, subtext }) => {
     return(
         <div className="anchor" title={subtext}>
-            <a href={links}>
+          {title === 'Contact Me' ? <Link to={links}>
             <button id={id}>
            <span className="title">
            {title}
             </span>
             </button>
-            </a>
+            </Link> : <a href={links}>
+            <button id={id}>
+           <span className="title">
+           {title}
+            </span>
+            </button>
+            </a>  }
         </div>
     )
 }
 
-export default Anchor
+export default Anchor;

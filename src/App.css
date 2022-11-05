@@ -95,9 +95,7 @@ color: #475467;
 }
 
 form{
- 
   width: 100%;
-  /* padding: 0 5% 0 2%; */
 }
 
 .nameDiv{
@@ -109,6 +107,10 @@ form{
 
 .nameInputContainer{
   width: 48%;
+}
+
+.nameInputContainer:nth-child(2){
+  padding: 0 0 0 0;
 }
 
 .nameInputContainer label, .emailInputContainer label, .messageInputContainer label{
@@ -211,4 +213,26 @@ margin: 0 2% 0 0;
   .slackImg{
     margin: 0 5% 0 0;
   }
+
+  /* mobile view for contact page */
+  .contactContainer{
+    width: 90%;
+    padding: 1% 0 0 0;
+    text-align: left;
+    margin: 0 auto;
+    font-family: 'Inter';
+  }
+
+  .nameDiv{
+    display: block;
+  }
+
+  .nameInputContainer{
+    width: 100%;
+  }
+
+  .nameInputContainer:nth-child(2){
+    padding: 4% 0 0 0;
+  }
+
 }
