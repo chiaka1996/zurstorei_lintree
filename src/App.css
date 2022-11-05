@@ -177,6 +177,11 @@ margin: 0 2% 0 0;
   border-radius: 8px;
   color: #FFFFFF;
   font-size: 16px;
+  cursor: pointer;
+}
+
+.error{
+  color: red;
 }
 
 /* mobile view */
